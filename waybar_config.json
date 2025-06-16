@@ -4,14 +4,14 @@
   "exclusive": true,
   "modules-right": ["custom/todo", "custom/gcal", "custom/debug"],
   "width": 200,
+  "cursor-width": 0,
   "custom/todo": {
     "exec": "python ~/.config/wayside/convert_text.py ~/todo.txt",
     "interval": 3
   },
   "custom/gcal": {
-    "exec": "python ~/.config/wayside/gcal_fetch.py --quiet",
+    "exec": "cd ~/.config/wayside && python ~/.config/wayside/gcal_fetch.py --quiet",
     "interval": 300,
-    "allow-breaks": true,
-    "on-click": "nyxt https://calendar.google.com/calendar/u/0/r"
+    "allow-breaks": true
   }
 }

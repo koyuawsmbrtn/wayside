@@ -1,0 +1,18 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #333;
+    color: #ffffff;
+}
+
+#custom-gcal, #custom-todo {
+    padding: 0 10px;
+    color: #ffffff;
+}

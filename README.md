@@ -28,6 +28,8 @@ python gcal_fetch.py
 
 5. Copy the configuration files to your config directory: 📁
 ```bash
+mkdir -p ~/.config/waybar
+cp wayside/style.css ~/.config/waybar/
 cp -r wayside ~/.config/
 ```
 
