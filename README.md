@@ -43,6 +43,11 @@ touch ~/todo.txt
 
 8. Restart Sway or launch Waybar manually 🔄
 
+9. You might also want to add a shortcut for the `toggle.py` script to toggle the todo widget visibility. For example, add this to your Sway config:
+```bash
+bindsym $mod+s exec python ~/.config/wayside/toggle.py
+```
+
 ## 🧩 Components
 
 - `gcal_fetch.py` - Fetches upcoming events from Google Calendar 📅
