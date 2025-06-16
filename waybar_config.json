@@ -13,6 +13,6 @@
     "exec": "cd ~/.config/wayside && python ~/.config/wayside/gcal_fetch.py --quiet",
     "interval": 300,
     "allow-breaks": true,
-    "on-click": "nyxt https://calendar.google.com/calendar/u/0/r"
+    "on-click": "xdg-open https://calendar.google.com/calendar/u/0/r"
   }
 }
