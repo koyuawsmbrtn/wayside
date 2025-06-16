@@ -12,6 +12,7 @@
   "custom/gcal": {
     "exec": "cd ~/.config/wayside && python ~/.config/wayside/gcal_fetch.py --quiet",
     "interval": 300,
-    "allow-breaks": true
+    "allow-breaks": true,
+    "on-click": "nyxt https://calendar.google.com/calendar/u/0/r"
   }
 }
